@@ -11,7 +11,7 @@ data:
   LDAPS_PORT: "1636"
   HTTPS_PORT: "1443"
   SERVER_PROFILE_PATH: profiles/pingfederate
-  SERVER_PROFILE_URL: https://user:personal-token@github.com/pingdevopsprogram/botw
+  SERVER_PROFILE_URL: https://user:personal-token@github.com/pingdevopsprogram/west
 kind: ConfigMap
 metadata:
   name: pingfederate-admin-environment-variables
@@ -28,7 +28,7 @@ data:
   LDAPS_PORT: "1636"
   HTTPS_PORT: "1443"
   SERVER_PROFILE_PATH: profiles/pingfederate
-  SERVER_PROFILE_URL: https://user:personal-token@github.com/pingdevopsprogram/botw
+  SERVER_PROFILE_URL: https://user:personal-token@github.com/pingdevopsprogram/west
 kind: ConfigMap
 metadata:
   name: pingfederate-engine-environment-variables
